@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #F3EEEA;
+  height: 1000px;
+}
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+
+section {
+  padding: 50px 0px 50px 0px;
+}
+
+.wrapper > h3,
+.wrapper > h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #222831;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 5px solid #cccccc;
+}
+.wrapper > h3::after,
+.wrapper > h1::after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid #aa392d;
+  width: 25%;
+  position: relative;
+  bottom: -5px; /* your padding + border-width */
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 80%;
+  }
+}

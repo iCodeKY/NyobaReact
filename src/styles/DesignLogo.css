@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+span {
+    background-color: white; /* Warna latar belakang untuk mode terang */
+    display: inline-block; 
+    transform: rotate(-1deg); /* Rotasi elemen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    padding-top: 0.25rem; 
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem; 
+    padding-right: 0.75rem; 
+    border-radius: 0.45rem; 
+    margin-left: 10px;
+}
+
+.logonya {
+    background: linear-gradient(to right, #0ea5e9, #8b5cf6); /* Gradien warna */
+    -webkit-background-clip: text; /* Memotong latar belakang agar mengikuti teks */
+    -webkit-text-fill-color: transparent; /* Menjadikan teks transparan */
+    font-size: 1.5rem; /* Atur ukuran font sesuai kebutuhan */
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    display: inline-block; /* Pastikan elemen tetap inline */
+}

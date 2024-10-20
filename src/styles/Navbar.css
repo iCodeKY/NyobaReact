@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.pembungkus {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ubah dari align-content ke align-items */
+    height: 50px;
+    width: 70%;
+    margin-top: 15px;
+    /* backdrop-filter: blur(5px); */
+    border-radius: 5px;
+    position: fixed; /* Tetap di posisi saat scroll */
+    left: 50%;
+    transform: translateX(-50%); 
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Pastikan elemen di atas konten lain */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ubah dari align-content ke align-items */
+    width: 350px;
+    height: 30px;
+    gap: 40px;
+    margin-right: 4.2vw;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+li a {
+    color: black;
+    font-size: 16px;
+}
+
+.logo {
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.Logonya {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: #171d21;
+    font-size: 1.2rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Untuk Bagian Hover List Navbar */
+
+ul li {
+    position: relative; 
+    display: inline-block;
+    color: #333; 
+}
+
+ul li::after {
+    content: '';
+    position: absolute; 
+    left: 0; 
+    bottom: -2px; 
+    width: 100%;
+    height: 2px; 
+    background-color: #007BFF; 
+    transform: scaleX(0); 
+    transition: transform 0.5s ease; 
+}
+
+ul li:hover::after {
+    transform: scaleX(1); 
+}

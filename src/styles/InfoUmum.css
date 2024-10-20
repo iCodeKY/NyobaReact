@@ -1,0 +1,13 @@
+.Pembungkusnya{
+    display: inline-block;
+    position: absolute;
+    height: 45vh;
+    width: 40vw;
+    top: 15%;
+    left: 18.2%;
+}
+
+p{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+}
