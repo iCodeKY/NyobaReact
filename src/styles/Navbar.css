@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 .pembungkus {
-    background-color: rgb(255, 255, 255);
+    background-color: #37AFE1;
     display: flex;
     justify-content: space-between;
     align-items: center; /* Ubah dari align-content ke align-items */
@@ -55,7 +55,11 @@ li a {
     font-weight: bold;
     color: #171d21;
     font-size: 1.2rem;
+    font-size: clamp(10px, 1.5vw + 1rem, 20px);
     
+}
+.logonya:hover{
+    color: blue;
 }
 
 a {
